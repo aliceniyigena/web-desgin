@@ -1,0 +1,167 @@
+body{
+	font-family: arial,helvtica,sans-serif;
+	padding:0;
+margin: 0;
+background-color:#f4f4f4;
+}
+/*global*/
+.container{
+	width:80%;
+ margin: auto;
+ overflow: hidden;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.button_l{
+	height:12px;
+	background:#e8491d;
+	border:0;
+	padding-left:28px;
+	padding-right: 24px;
+	color:#ffffff;
+
+}
+.dark{
+padding: 23px;
+background:#35424a;
+color:#ffffff;
+margin-top:10px;
+margin-bottom:10px;  	
+}
+
+/*header*/
+header{
+	background:#35424a;
+	color:#ffffff;
+	padding-top:30px;
+	min-height:80px;
+	border-bottom: #e84916 3px solid;
+
+}
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:17px;
+
+}
+ 
+ header li{
+	float: left;
+	display: inline;
+	padding :0 20px 0 20px;
+
+
+}
+header #branding{
+	foalt: left;
+}
+header #branding h2{
+	margin: 0;
+}
+header nav{
+	float: right;
+	margin-top: 9px;
+}
+header .highlight, header .current a{
+	color: #e8491d
+	font-weight:bold;
+}
+header a:hover{
+color:#eeeeee;
+font-weight: bold;
+}
+
+/* showcase*/
+#showcase{
+	min-height:30px;
+	background:url("./img/show_html.png") no-repeat 0 .400px;
+	text-align:center;
+	color:#ffffff;
+
+}
+#showcase h1{
+	margin-top:12px;
+	font-size:13px; 
+	margin-bottom:12px;
+
+}#showcase p{
+	font-size:20px;
+
+}
+
+#newsletter{
+padding:14px;
+	color: #ffffff;
+	background:#35424a;
+
+}
+#newsletter h1{
+	float: left;
+}
+#newsletter form{
+	float: right;
+	margin-top:23;
+
+}
+#newsletter input[type="email"]{
+	padding: 3px;
+	height: 2px;
+	width:3px;
+
+}
+/*boxes*/
+#boxes{
+	margin-top: 23px;
+
+}
+#boxes .box{
+	float: left;
+	text-align: center;
+	width:30px;
+	 padding:12px;
+
+}
+#boxes .box img{
+	width:35px;
+
+}
+/*sidebar*/
+aside#sidebar{
+	float:right;
+	width: 23px;
+	margin-top:10px;	 
+}
+/*main-col*/
+
+article#main-col{
+float: left;
+width: 45px;
+
+}
+/*service*/
+ul#service li{
+	list-style:none;
+	padding: 23px;
+	border:#cccccc solid 1px;
+	margin-bottom: 34px;
+	background:;
+
+
+
+
+}
+
+footer{
+	padding:29px;
+	margin-top:12px;
+	color:#ffffff;
+	 background-color:#e8491d;
+	 text-align: center;
+	 
+
+
+}
